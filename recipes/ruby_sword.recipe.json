@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "pet_st2:ruby_sword"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " # ",
+            " # ",
+            " / "
+        ],
+        "key": {
+            "#": {
+                "item": "pet_st2:ruby"
+            },
+            "/": {
+              "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "pet_st2:ruby_sword",
+            "count": 1
+        }
+    }
+  }

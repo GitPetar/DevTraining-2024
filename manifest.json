@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Super XXL Mega Fun Epic AddOn Premium +",
+		"description": "Super XXL Mega Fun Epic AddOn Premium + Behavior Pack",
+		"uuid": "f31e239e-486c-02ff-27e8-d08ecd904e9e",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["Petar"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.1.0"],
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "eb95ce02-33a3-4389-3cd4-1936bf13f1c2",
+			"type": "data"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "23b14044-b8ce-c35e-ee9e-b9ce802b80da",
+			"version": [1, 0, 0]
+		}
+	]
+}

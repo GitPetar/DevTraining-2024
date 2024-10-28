@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "pet_st2:ruby_helmet",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "ruby_helmet"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 3
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 165
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["pet_st2:ruby"],
+						"repair_amount": 41
+					}
+				]
+			}
+		}
+	}
+}

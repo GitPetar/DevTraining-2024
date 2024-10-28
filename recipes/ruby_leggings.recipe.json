@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "pet_st2:ruby_leggings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "# #",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "pet_st2:ruby"
+            }
+        },
+        "result": {
+            "item": "pet_st2:ruby_leggings",
+            "count": 1
+        }
+    }
+}
